@@ -1,10 +1,10 @@
 function truncate(str, maxlength){
-  let res
+  let result;
    if(str.length > maxlength){
-   res = str.slice(0, maxlength-1)+"…"
+    result = str.slice(0, maxlength-1)+"…"
   } 
-  else
-     {res = str
-     }
-  return res
+  else{
+     result = str
+      }
+  return result
 }

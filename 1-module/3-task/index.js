@@ -1,3 +1,5 @@
 function ucFirst(str) {
-  return result = str.charAt(0).toUpperCase() + str.slice(1)
+  let result;
+   result = str.charAt(0).toUpperCase() + str.slice(1)
+   return result
 }
