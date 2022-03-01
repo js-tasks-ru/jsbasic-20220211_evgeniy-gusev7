@@ -1,3 +1,5 @@
 function makeFriendsList(friends) {
-  // ваш код...
+  let param = document.createElement('ul')
+   friends.forEach((el) => param.innerHTML += ` <li> ${el.firstName} ${el.lastName} </li>`)
+   return param
 }
